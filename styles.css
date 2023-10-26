@@ -1,0 +1,265 @@
+/* Assignment1 Hanan Juharji 2111753 */
+
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-color: #f6d8fc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(169, 169, 169);
+}
+
+/* HEADER */
+.header {
+    background-color: #9b12cd;
+    overflow: hidden;
+    box-shadow: 0 0 6px 0 rgba(81, 81, 81, 0.98);
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 4px 4px 4px -4px rgba(0, 0, 0, 0.2);
+    float: left;
+    height: 8.5em;
+    width: 8.5em;
+    margin: 1em;
+}
+.profile-name {
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.public-info-box {
+    display: inline-block;
+    overflow: hidden;
+    padding: 1em;
+}
+
+
+.public-info-item {
+    overflow: hidden;
+    content: '';
+}
+.public-info-item-text {
+    color: white;
+    font-size: 0.55em;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    padding-left: 10px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.public-info-item-image {
+    height: 0.9em;
+    width: 0.9em;
+    vertical-align: middle;
+}
+
+
+/* BODY */
+.content-root {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.content-left-column 
+{
+    float: left;
+    display: table-cell;
+    width: 40%;
+    padding-left: 20px;
+
+}
+.content-right-column {
+    float:right;
+    display: table-cell;
+    width: 70%;
+    position:absolute; top: 300px; right: -20px;
+}
+
+
+.EXP-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.section-title {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #bb53e1;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.enumeration-text {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #812abb
+}
+
+
+.text-detail {
+    font-size: 11px;
+    font-weight: normal;
+    color: #9014ce
+}
+
+
+.horizontal-image {
+    display: inline-block;
+    height: 1.6em;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+
+.experience-topic-container {
+    overflow: hidden;
+}
+
+.experience-title-card {
+    height: 40px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    display: table;
+    float: left;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #9b12cd;
+    color: #f6d8fc;
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.experience-details-card {
+    height: auto;
+    width: 335px;
+    position: relative;
+    float: left;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 8px 8px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: #212121;
+}
+
+.right-aligned-text {
+    position: absolute;
+    right: 8px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.url-text {
+    color: #212121;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+        .content-right-column {
+            float:right;
+            display: table-cell;
+            width: 20%;
+            position:relative; top: 9px;right:250px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #bb53e1;
+            padding-bottom: 10px;
+            font-family: 'Times New Roman', Times, serif;
+        
+        }
+        
+        .enumeration-text {
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            color: #812abb
+        }
+        .public-info-item-text {
+            color: white;
+            font-size: 0.90em;
+            font-style: normal;
+            text-decoration: none;
+            vertical-align: middle;
+            padding-left: 10px;
+            display: inline-block;
+            font-family: 'Times New Roman', Times, serif;
+        
+        }
+        .text-detail {
+            font-size: 20px;
+            font-weight: normal;
+            color: black;
+        }
+
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .public-info-item-text {
+        color: white;
+        font-size: 1em;
+        font-style: normal;
+        text-decoration: none;
+        vertical-align: middle;
+        padding-left: 15px;
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+.background {
+    height: 100%;
+    width: 100%;
+    background-color: #e2cae7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(169, 169, 169);
+}
+
+}
+
+
+
+/* Bootstrap*/
+.component {
+    color: var(--bs-gray-800);
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .25rem;
+  }
+  
+  .component-header {
+    color: var(--bs-purple);
+  }
